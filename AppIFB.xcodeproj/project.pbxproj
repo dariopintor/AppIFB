@@ -21,11 +21,21 @@
 		411E96ED28AAC161003D8DF9 /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411E96EC28AAC161003D8DF9 /* LoginCoordinator.swift */; };
 		411E96F128ABA6A9003D8DF9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411E96F028ABA6A9003D8DF9 /* LoginViewController.swift */; };
 		411E96F428ABAE81003D8DF9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411E96F328ABAE81003D8DF9 /* LoginView.swift */; };
+		411EBCDB28EDFB7A00DFB279 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EBCDA28EDFB7A00DFB279 /* ImageViewController.swift */; };
+		411EBCDE28EDFFB100DFB279 /* ImageCoordenator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EBCDD28EDFFB100DFB279 /* ImageCoordenator.swift */; };
+		411EBCE028EE03B700DFB279 /* ContactCoordenator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EBCDF28EE03B700DFB279 /* ContactCoordenator.swift */; };
+		411EBCE228EE03C800DFB279 /* MessageCoordenator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EBCE128EE03C800DFB279 /* MessageCoordenator.swift */; };
+		411EBCE628EE061400DFB279 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EBCE528EE061400DFB279 /* MessageViewController.swift */; };
+		411EBCE828EE062B00DFB279 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EBCE728EE062B00DFB279 /* ContactViewController.swift */; };
+		411EBCEA28EE072900DFB279 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EBCE928EE072900DFB279 /* MessageView.swift */; };
+		411EBCEC28EE073900DFB279 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411EBCEB28EE073900DFB279 /* ContactView.swift */; };
 		4135F91D28EB690200C7114C /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4135F91C28EB690200C7114C /* UserViewModel.swift */; };
 		4142468D28AFB4E800E42126 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4142468C28AFB4E800E42126 /* UIColor+.swift */; };
 		4142468F28AFBEAF00E42126 /* TextFieldDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4142468E28AFBEAF00E42126 /* TextFieldDefault.swift */; };
 		416B175928DB999B00E4FC1B /* ButtonDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416B175828DB999B00E4FC1B /* ButtonDefault.swift */; };
 		4183263D28AD0E46006F24F9 /* LabelDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4183263C28AD0E46006F24F9 /* LabelDefault.swift */; };
+		418DAE8A28EF5AC400F80293 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DAE8928EF5AC400F80293 /* ContactModel.swift */; };
+		418DAE8C28EF5B4400F80293 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DAE8B28EF5B4400F80293 /* ContactViewModel.swift */; };
 		4190AF2128DC66690045382C /* RegisterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4190AF2028DC66690045382C /* RegisterCoordinator.swift */; };
 		4190AF2328DC66980045382C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4190AF2228DC66980045382C /* RegisterViewController.swift */; };
 		4190AF2528DC66AC0045382C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4190AF2428DC66AC0045382C /* RegisterView.swift */; };
@@ -35,6 +45,9 @@
 		4190AF3028E4421D0045382C /* ViewDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4190AF2F28E4421D0045382C /* ViewDefault.swift */; };
 		4190AF3228E4B3B50045382C /* LoginViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4190AF3128E4B3B50045382C /* LoginViewExtension.swift */; };
 		4194B80D28E5A478000223E5 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4194B80C28E5A478000223E5 /* HomeCoordinator.swift */; };
+		41AC5BEF28ED82CE004716A3 /* TabbarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC5BEE28ED82CE004716A3 /* TabbarCoordinator.swift */; };
+		41AC5BF228ED8517004716A3 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC5BF128ED8517004716A3 /* TabbarController.swift */; };
+		41AC5BF528ED8D0B004716A3 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AC5BF428ED8D0B004716A3 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,11 +86,21 @@
 		411E96EC28AAC161003D8DF9 /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
 		411E96F028ABA6A9003D8DF9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		411E96F328ABAE81003D8DF9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		411EBCDA28EDFB7A00DFB279 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		411EBCDD28EDFFB100DFB279 /* ImageCoordenator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCoordenator.swift; sourceTree = "<group>"; };
+		411EBCDF28EE03B700DFB279 /* ContactCoordenator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCoordenator.swift; sourceTree = "<group>"; };
+		411EBCE128EE03C800DFB279 /* MessageCoordenator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCoordenator.swift; sourceTree = "<group>"; };
+		411EBCE528EE061400DFB279 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		411EBCE728EE062B00DFB279 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		411EBCE928EE072900DFB279 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		411EBCEB28EE073900DFB279 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		4135F91C28EB690200C7114C /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		4142468C28AFB4E800E42126 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		4142468E28AFBEAF00E42126 /* TextFieldDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldDefault.swift; sourceTree = "<group>"; };
 		416B175828DB999B00E4FC1B /* ButtonDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefault.swift; sourceTree = "<group>"; };
 		4183263C28AD0E46006F24F9 /* LabelDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDefault.swift; sourceTree = "<group>"; };
+		418DAE8928EF5AC400F80293 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		418DAE8B28EF5B4400F80293 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
 		4190AF2028DC66690045382C /* RegisterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterCoordinator.swift; sourceTree = "<group>"; };
 		4190AF2228DC66980045382C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		4190AF2428DC66AC0045382C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
@@ -87,6 +110,9 @@
 		4190AF2F28E4421D0045382C /* ViewDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDefault.swift; sourceTree = "<group>"; };
 		4190AF3128E4B3B50045382C /* LoginViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewExtension.swift; sourceTree = "<group>"; };
 		4194B80C28E5A478000223E5 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		41AC5BEE28ED82CE004716A3 /* TabbarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarCoordinator.swift; sourceTree = "<group>"; };
+		41AC5BF128ED8517004716A3 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		41AC5BF428ED8D0B004716A3 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +204,7 @@
 		411E96E828AAC01B003D8DF9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				418DAE8828EF5A8600F80293 /* Model */,
 				4135F91B28EB68DE00C7114C /* ViewModel */,
 				4183263A28AD0DE7006F24F9 /* Infrasctructure */,
 				411E96EE28ABA65F003D8DF9 /* Controller */,
@@ -193,6 +220,10 @@
 				411E96EC28AAC161003D8DF9 /* LoginCoordinator.swift */,
 				4190AF2028DC66690045382C /* RegisterCoordinator.swift */,
 				4194B80C28E5A478000223E5 /* HomeCoordinator.swift */,
+				41AC5BEE28ED82CE004716A3 /* TabbarCoordinator.swift */,
+				411EBCDD28EDFFB100DFB279 /* ImageCoordenator.swift */,
+				411EBCDF28EE03B700DFB279 /* ContactCoordenator.swift */,
+				411EBCE128EE03C800DFB279 /* MessageCoordenator.swift */,
 			);
 			path = Coordenator;
 			sourceTree = "<group>";
@@ -200,6 +231,10 @@
 		411E96EE28ABA65F003D8DF9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				411EBCE428EE05E100DFB279 /* Message */,
+				411EBCE328EE05D300DFB279 /* Contact */,
+				41AC5BF328ED8CF9004716A3 /* Image */,
+				41AC5BF028ED8451004716A3 /* Tabbar */,
 				4190AF2628E2F3480045382C /* Home */,
 				411E96EF28ABA66F003D8DF9 /* Login */,
 				4190AF1F28DC660A0045382C /* Register */,
@@ -217,10 +252,29 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		411EBCE328EE05D300DFB279 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				411EBCE728EE062B00DFB279 /* ContactViewController.swift */,
+				411EBCEB28EE073900DFB279 /* ContactView.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		411EBCE428EE05E100DFB279 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				411EBCE528EE061400DFB279 /* MessageViewController.swift */,
+				411EBCE928EE072900DFB279 /* MessageView.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
 		4135F91B28EB68DE00C7114C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				4135F91C28EB690200C7114C /* UserViewModel.swift */,
+				418DAE8B28EF5B4400F80293 /* ContactViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -254,6 +308,14 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		418DAE8828EF5A8600F80293 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				418DAE8928EF5AC400F80293 /* ContactModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		4190AF1F28DC660A0045382C /* Register */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,6 +332,23 @@
 				4190AF2A28E43E430045382C /* HomeView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		41AC5BF028ED8451004716A3 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				41AC5BF128ED8517004716A3 /* TabbarController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		41AC5BF328ED8CF9004716A3 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				41AC5BF428ED8D0B004716A3 /* ImageView.swift */,
+				411EBCDA28EDFB7A00DFB279 /* ImageViewController.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -403,18 +482,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41AC5BF528ED8D0B004716A3 /* ImageView.swift in Sources */,
+				411EBCEC28EE073900DFB279 /* ContactView.swift in Sources */,
 				411E96F128ABA6A9003D8DF9 /* LoginViewController.swift in Sources */,
+				41AC5BF228ED8517004716A3 /* TabbarController.swift in Sources */,
 				416B175928DB999B00E4FC1B /* ButtonDefault.swift in Sources */,
 				4190AF2128DC66690045382C /* RegisterCoordinator.swift in Sources */,
+				411EBCDE28EDFFB100DFB279 /* ImageCoordenator.swift in Sources */,
 				411E96ED28AAC161003D8DF9 /* LoginCoordinator.swift in Sources */,
+				411EBCDB28EDFB7A00DFB279 /* ImageViewController.swift in Sources */,
+				41AC5BEF28ED82CE004716A3 /* TabbarCoordinator.swift in Sources */,
 				411E96B928AABEF1003D8DF9 /* ViewController.swift in Sources */,
 				4194B80D28E5A478000223E5 /* HomeCoordinator.swift in Sources */,
 				4190AF2B28E43E430045382C /* HomeView.swift in Sources */,
+				411EBCEA28EE072900DFB279 /* MessageView.swift in Sources */,
 				4135F91D28EB690200C7114C /* UserViewModel.swift in Sources */,
 				411E96BF28AABEF1003D8DF9 /* AppIFB.xcdatamodeld in Sources */,
 				4190AF2528DC66AC0045382C /* RegisterView.swift in Sources */,
+				411EBCE028EE03B700DFB279 /* ContactCoordenator.swift in Sources */,
+				418DAE8C28EF5B4400F80293 /* ContactViewModel.swift in Sources */,
+				411EBCE828EE062B00DFB279 /* ContactViewController.swift in Sources */,
+				411EBCE228EE03C800DFB279 /* MessageCoordenator.swift in Sources */,
 				4190AF3028E4421D0045382C /* ViewDefault.swift in Sources */,
 				411E96EB28AAC0F8003D8DF9 /* Coordinator.swift in Sources */,
+				418DAE8A28EF5AC400F80293 /* ContactModel.swift in Sources */,
 				4183263D28AD0E46006F24F9 /* LabelDefault.swift in Sources */,
 				4190AF2E28E442070045382C /* ViewControllerDefault.swift in Sources */,
 				4190AF3228E4B3B50045382C /* LoginViewExtension.swift in Sources */,
@@ -422,6 +513,7 @@
 				4190AF2328DC66980045382C /* RegisterViewController.swift in Sources */,
 				4190AF2928E43E210045382C /* HomeViewController.swift in Sources */,
 				4142468F28AFBEAF00E42126 /* TextFieldDefault.swift in Sources */,
+				411EBCE628EE061400DFB279 /* MessageViewController.swift in Sources */,
 				411E96F428ABAE81003D8DF9 /* LoginView.swift in Sources */,
 				411E96B728AABEF1003D8DF9 /* SceneDelegate.swift in Sources */,
 				4142468D28AFB4E800E42126 /* UIColor+.swift in Sources */,
